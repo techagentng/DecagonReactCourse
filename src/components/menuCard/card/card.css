@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashRapper {
+    width: 80%;
+    height: 250px;
+    background-color: rgb(239, 167, 167);
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.box {
+    width: 270px;
+    height: 240;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.box:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.redPage {
+    width: 80%;
+    height: 700px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.bluePage {
+    width: 80%;
+    height: 700px;
+    background-color: rgb(38, 92, 242);
+    margin: 0 auto;
+}
+
+.greenPage {
+    width: 80%;
+    height: 700px;
+    background-color: rgb(42, 210, 36);
+    margin: 0 auto;
+}
+
+.empty {
+    width: 80%;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+.active {
+    background-color: blue;
+}
+
+.bread {
+    width: 80%;
+    height: 60px;
+    background-color: rgb(44, 43, 43);
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+
+/*Home page */
+
+.cover {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentcont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 160px;
+}
+
+.contentcont button {
+    height: 60px;
+    width: 170px;
+    background-color: aqua;
+    color: black;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contentcont button:hover {
+    background-color: antiquewhite;
+}

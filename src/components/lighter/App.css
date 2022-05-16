@@ -1,0 +1,28 @@
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    padding: 22px 90px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.offBtn {
+    background-color: aqua;
+}
+.onBtn {
+    background-color: brown;
+    color: #fff;
+}
+.offBg {
+    background-color: black;
+}
+
+.onBg {
+    background-color: aliceblue;
+}
