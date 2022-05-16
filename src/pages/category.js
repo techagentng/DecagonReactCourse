@@ -7,10 +7,11 @@ export default function Category(){
         if (id === 0) {
             return null
         } else if (id > 0 && id < 3) {
-            return <BlueComp text="text" />
+            return <BlueComp text="text1" />
         } else if (id === 3) {
-            return <BlueComp text="text2"/>
-        }
+            return <BlueComp text="text3"/>
+        } 
+
     }
     return(
         <>
