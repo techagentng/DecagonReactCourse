@@ -4,8 +4,8 @@ import './index.css';
 import Counter from "./components/counter/counter"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Category from "./pages/category"
-import Landing from "./pages/landing"
- //import App from "./App"
+import Form from "./components/form/form"
+ import Forms from "./pages/formpage"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,8 +14,10 @@ root.render(
       <Routes>
 
           <Route exact path="/counter" element={<Counter />}></Route>  
-          <Route exact path="/" element={<Landing />}></Route>   
-           <Route exact path="/card" element={<Category />}></Route>
+          <Route exact path="/form" element={<Forms />}></Route>   
+          <Route exact path="/card" element={<Category />}></Route>
+          {/* <Route exact path="/formpage" element={<Form />}></Route> */}
+          <Route exact path="/" element={<Form />}></Route>
 
       </Routes>
     </Router>
